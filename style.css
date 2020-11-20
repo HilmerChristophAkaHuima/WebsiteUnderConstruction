@@ -10,9 +10,10 @@ body {
 }
 
 footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
   background-color: #121212;
-  margin: auto;
-  height: 10vh;
   display: flex;
   flex-direction: column;
 }
@@ -67,13 +68,38 @@ footer {
   flex: 1;
   display: flex;
   justify-content: center;
+  height: 60vh;
+  width: 40vw;
 }
 
 .cover img {
-  height: 50vh;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
   color: #7e7f88;
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-top: 5vh;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 30px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .cover {
+    width: 100vw;
+  }
 }
