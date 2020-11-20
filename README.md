@@ -1,2 +1,2 @@
 # WebsiteUnderConstruction
-My Template for a website under construction 
+My template for a website under construction 
